@@ -6,7 +6,14 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+/*Debby was here*/
+@media screen and (min-width: 800px) {
+    .icon{
+        display: none;
+    }
+}
 
+/*She dinno pass this terminan*/
 div.nav-bar {
     display: flex;
     justify-content: space-between;
@@ -39,8 +46,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #304353;
-    background: #fff;
+    color: #fff;
     padding: 0.5rem;
 }
 
